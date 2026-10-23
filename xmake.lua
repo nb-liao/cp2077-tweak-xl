@@ -35,8 +35,8 @@ else
 end
 
 add_requires("hopscotch-map", "minhook", "spdlog", "tiltedcore", "yaml-cpp")
-add_requires("mimalloc 2.2.4", {configs = {rltgenrandom = true}})
-add_requireconfs("tiltedcore.mimalloc", {version = "2.2.4", configs = {rltgenrandom = true}, override = true})
+add_requires("mimalloc 3.5.0", {configs = {rltgenrandom = true}})
+add_requireconfs("tiltedcore.mimalloc", {version = "3.5.0", configs = {rltgenrandom = true}, override = true})
 
 target("TweakXL")
     set_default(true)
